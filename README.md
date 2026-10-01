@@ -243,15 +243,7 @@ AI-based medical imaging projects involving:
 
 ---
 
-# 🐍 Contribution Snake
 
-<div align="center">
-
-<img src="https://raw.githubusercontent.com/AlirezaSobhani82/AlirezaSobhani82/output/github-contribution-grid-snake.svg" alt="GitHub Contribution Snake" />
-
-</div>
-
----
 
 # 🎯 Current Focus
 
