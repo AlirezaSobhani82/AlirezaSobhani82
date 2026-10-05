@@ -43,12 +43,12 @@ I enjoy working across the complete AI pipeline — from **data processing and m
 | Person Re-ID | Temporal Analysis | Model Evaluation |
 | Pose Estimation | Video Analytics | Transfer Learning |
 
-| 🏥 Medical AI | 🤖 Generative AI | ⚙️ AI Engineering |
+| 🏥 Medical Imaging | 🤖 Generative AI | ⚙️ AI Engineering |
 |:---:|:---:|:---:|
 | DICOM | LLM | FastAPI |
 | MRI | RAG | Docker |
-| Image Processing | Retrieval | REST APIs |
-| 3D Reconstruction | AI Applications | PostgreSQL |
+| Image Processing | Retrieval | PostgreSQL |
+| 3D Reconstruction | AI Applications | REST APIs |
 
 </div>
 
@@ -81,7 +81,7 @@ I enjoy working across the complete AI pipeline — from **data processing and m
 
 ### 🏥 Medical Imaging
 
-`DICOM` · `MRI` · `Medical Image Processing` · `3D Reconstruction`
+`DICOM` · `MRI` · `Medical Image Processing` · `Brain Segmentation` · `3D Reconstruction` · `Marching Cubes` · `3D Mesh Processing`
 
 ### ⚙️ AI Engineering
 
@@ -137,7 +137,7 @@ An end-to-end Computer Vision system designed to analyze human activity and prod
                            TIMELINE
                               │
                               ▼
-                      MODEL FUSION
+                       MODEL FUSION
                               │
                               ▼
                         RULE ENGINE
@@ -160,17 +160,53 @@ An end-to-end Computer Vision system designed to analyze human activity and prod
 
 # 🧬 Featured Projects
 
-## 02 — 2D → 3D MRI Reconstruction
+## 02 — 2D → 3D MRI Brain Reconstruction
 
-### Medical Computer Vision · Mathematical Reconstruction
+### Medical Imaging · 3D Reconstruction · Computer Vision
 
-A medical imaging project focused on reconstructing **3D spatial information from 2D MRI image data**.
+A research and demonstration project for reconstructing and visualizing a **3D brain surface from 2D MRI DICOM slices**.
 
-The approach uses mathematical relationships between image planes and complementary spatial information to reconstruct missing spatial information rather than relying on visual guessing.
+The pipeline includes DICOM series analysis, spatial slice ordering, MRI intensity normalization, isotropic resampling, brain segmentation, Marching Cubes surface extraction, mesh processing, and interactive 3D visualization.
 
-**Focus**
+### Pipeline
 
-`DICOM` · `MRI` · `Image Processing` · `Mathematical Reconstruction` · `3D Reconstruction`
+```text
+2D MRI DICOM Slices
+        │
+        ▼
+DICOM Series Analysis
+        │
+        ▼
+3D Volume Reconstruction
+        │
+        ▼
+Intensity Normalization
+        │
+        ▼
+1 mm Isotropic Resampling
+        │
+        ▼
+Brain Segmentation
+        │
+        ▼
+Marching Cubes
+        │
+        ▼
+3D Mesh Processing
+        │
+        ▼
+Interactive 3D Visualization
+```
+
+**Technologies**
+
+`Python` · `DICOM` · `pydicom` · `NumPy` · `SciPy` · `scikit-image` · `PyVista` · `Marching Cubes`
+
+<div align="center">
+
+🔗 **[EXPLORE THE MRI 2D → 3D PROJECT →](https://github.com/AlirezaSobhani82/MRI-2D-to-3D-Brain)**
+
+</div>
 
 ---
 
@@ -180,7 +216,7 @@ The approach uses mathematical relationships between image planes and complement
 
 An AI-based educational system combining **Large Language Models** and **Retrieval-Augmented Generation**.
 
-**Capabilities**
+### Capabilities
 
 - Intelligent question answering
 - Educational information retrieval
@@ -199,17 +235,39 @@ An AI-based educational system combining **Large Language Models** and **Retriev
 
 ### Deep Learning · Medical Computer Vision
 
-AI-based medical imaging projects involving:
+Medical imaging experiments and projects involving:
 
-🦴 Bone fracture detection  
-🧠 Brain tumor detection  
-🩺 Skin disease detection  
-🖼️ Medical image processing  
-📁 DICOM data processing
+🦴 Fracture Analysis  
+🧠 Brain MRI Analysis  
+🩺 Skin Image Analysis  
+🖼️ Medical Image Processing  
+📁 DICOM Data Processing
 
 **Technologies**
 
 `Python` · `PyTorch` · `Deep Learning` · `Computer Vision` · `DICOM`
+
+---
+
+# ⭐ Featured Repositories
+
+<div align="center">
+
+### 🎯 Computer Vision & Video AI
+
+**[Analysis of Employee Behavior](https://github.com/AlirezaSobhani82/Analysis-of-employee-behavior)**
+
+YOLO11 · BoT-SORT · Re-ID · SlowFast · MediaPipe · Video Analytics
+
+<br>
+
+### 🧬 Medical Imaging & 3D Reconstruction
+
+**[MRI 2D → 3D Brain](https://github.com/AlirezaSobhani82/MRI-2D-to-3D-Brain)**
+
+DICOM · MRI · Brain Segmentation · Marching Cubes · PyVista · 3D Visualization
+
+</div>
 
 ---
 
@@ -243,11 +301,9 @@ AI-based medical imaging projects involving:
 
 ---
 
-
-
 # 🎯 Current Focus
 
-Building **reliable and practical AI systems** by combining machine learning models, computer vision algorithms, and software engineering.
+Building **reliable and practical AI systems** by combining machine learning models, computer vision algorithms, medical imaging techniques, and software engineering.
 
 ```text
 Computer Vision
@@ -312,6 +368,6 @@ I’m interested in:
 
 ### ⭐ Thanks for visiting my profile!
 
-**AI · Computer Vision · Deep Learning · Video AI · Real-World Systems**
+**AI · Computer Vision · Deep Learning · Video AI · Medical Imaging · Real-World Systems**
 
 </div>
